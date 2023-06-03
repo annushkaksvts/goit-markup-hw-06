@@ -1075,19 +1075,16 @@ body {
 		fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.svg-checkbox {
-	width: 10px;
-	height: 8px;
+.modal-form-checkbox-input:checked + .checkbox-form-icon {
+	background-color: var(--ocean-color);
+	border: none;
+	fill: var(--white-kolor);
 }
 
-.modal-form-checkbox-input:checked + .checkbox-form-icon > .checkbox-form-checkmark {
-	opacity: 1;
-}
-
-.checkbox-form-checkmark {
+/* .checkbox-form-checkmark {
 	opacity: 0;
-}
+} */
 
-.modal-form-checkbox-input:focus + .checkbox-form-icon {
+/* .modal-form-checkbox-input:focus + .checkbox-form-icon {
 	outline: 2px solid var(--ocean-color);
-}
+} */

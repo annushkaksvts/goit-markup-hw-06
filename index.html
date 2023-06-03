@@ -448,15 +448,23 @@
 							id="user-comment"
 						></textarea>
 					</div>
-
-					<label class="modal-form-checkbox-label" for="user-policy">
-						<input class="modal-form-checkbox-input" type="checkbox" name="user-policy" id="user-policy" required />
-						<svg class="checkbox-form-icon" width="16" height="16">
-							<use class="checkbox-form-checkmark" href="./images/icons.svg#icon-checkmark"></use>
-						</svg>
-						I accept the terms and conditions of the
-						<a class="privacy-policy" href="">Privacy Policy</a>
-					</label>
+					<div class="contact-form-input-checkbox">
+						<input
+							class="modal-form-checkbox-input visually-hidden"
+							type="checkbox"
+							name="user-privacy"
+							id="user-privacy"
+							value="true"
+							required
+						/>
+						<label class="modal-form-checkbox-label" for="user-privacy">
+							<svg class="checkbox-form-icon" width="16" height="16">
+								<use class="checkbox-form-checkmark" href="./images/icons.svg#icon-checkmark"></use>
+							</svg>
+							I accept the terms and conditions of the
+							<a class="privacy-policy" href="">Privacy Policy</a>
+						</label>
+					</div>
 					<button class="send-btn" type="submit">Send</button>
 				</form>
 			</div>

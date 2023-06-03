@@ -785,13 +785,14 @@ body {
 	padding: 8px 24px;
 	background-color: #4d5ae5;
 	border-radius: 4px;
-
+	border: none;
 	font-family: "Roboto", sans-serif;
 	font-style: normal;
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.5;
 	text-align: center;
+	align-items: center;
 	letter-spacing: 0.04em;
 
 	color: #ffffff;
@@ -900,7 +901,7 @@ body {
 	display: block;
 }
 
-.odal-div-form {
+.modal-div-form {
 	margin-bottom: 8px;
 }
 
@@ -926,11 +927,13 @@ body {
 }
 
 .modal-form-label {
+	display: block;
+	margin-bottom: 4px;
 	font-family: "Roboto", sans-serif;
 	font-style: normal;
 	font-weight: 400;
 	font-size: 12px;
-	line-height: 1.16;
+	line-height: 1.17;
 	letter-spacing: 0.04em;
 	color: #8e8f99;
 }
